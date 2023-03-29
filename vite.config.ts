@@ -53,7 +53,7 @@ export default defineConfig(function ({ mode }) {
       rollupOptions: {
         external: ['vue'],
         output: {
-          exports: 'named',
+          exports: 'default',
           globals: {
             vue: 'Vue'
           }

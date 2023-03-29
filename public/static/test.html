@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../../dist/style.css" rel="stylesheet">
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.global.min.js"></script>
+  <script src="../../dist/jyv3-ui.umd.js"></script>
+</head>
+<body>
+  <div id="app">
+    <jy-button>你好</jy-button>
+  </div>
+
+  <script>
+    const app = Vue.createApp()
+    app.use(jyv3)
+    app.mount('#app')
+  </script>
+</body>
+</html>

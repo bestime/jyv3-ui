@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite --mode development",
-    "build:hash": "vite build --mode production_hash",
+    "build": "vite build --mode production_hash",
     "lint-fix": "eslint --fix src --ext .ts,.vue,.js,.cjs --ignore-path .gitignore",
     "lint-check": "eslint --no-fix src --ext .ts,.vue,.js,.cjs --ignore-path .gitignore --max-warnings 0",
     "prepare": "husky install"
