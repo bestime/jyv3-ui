@@ -3,8 +3,10 @@ import type { App } from 'vue';
 import JyButton from './JyButton/index.vue';
 
 const utils = {
-  say(name: string) {
-    console.log('你好呀：', name);
+  add(...ars: number[]) {
+    return ars.reduce(function (total, num) {
+      return total + num;
+    }, 0);
   },
 };
 
